@@ -688,3 +688,7 @@ A dedicated sort selector is available for note/library views: relevance, title,
 - **Visual assets:** note, paragraph, Q&A question, Q&A answer and MCQ targets are supported. Images/vectors use safe HTTP(S) resources; diagrams and graphs can use structured data for deterministic rendering.
 - **AI prompts:** master-note and patch prompts explicitly describe the asset contract, deterministic paragraph keys, important terms and rendering targets.
 - **Sync:** the My Library Sync control is reserved for the future online service and currently reports Coming Soon without changing local data.
+
+## Known Issues
+
+- PWA status bar color: On Android, the installed Studiora PWA does not currently update the system status-bar color to match the app's active light/dark theme. This is a known issue and will be addressed in a future update.
